@@ -1,0 +1,64 @@
+#include <stdio.h>
+
+#define MAHSULOT_SONI 3
+
+typedef struct {
+    char nom[30];
+    float narx;
+} Mahsulot;
+
+void mahsulotlarniBoshlash(Mahsulot mahsulotlar[]) {
+    mahsulotlar[0].narx = 15.0;
+    snprintf(mahsulotlar[0].nom, sizeof(mahsulotlar[0].nom), "Olma");
+
+    mahsulotlar[1].narx = 25.0;
+    snprintf(mahsulotlar[1].nom, sizeof(mahsulotlar[1].nom), "Banan");
+
+    mahsulotlar[2].narx = 35.0;
+    snprintf(mahsulotlar[2].nom, sizeof(mahsulotlar[2].nom), "Apelsin");
+}
+
+void mahsulotlarniKorsatish(Mahsulot mahsulotlar[]) {
+printf("Dokondagi mahsulotlar:\n");
+for (int i = 0; i < MAHSULOT_SONI; i++) {
+printf("%d. %s - %.2f so‘m\n", i + 1, mahsulotlar[i].nom, mahsulotlar[i].narx);
+}
+}
+
+void sotibOlish(Mahsulot mahsulotlar[]) {
+    int tanlov;
+    int miqdor;
+    float jamiNarx = 0.0;
+
+    printf("Sotib olish uchun mahsulotni tanlang (1-%d): ", MAHSULOT_SONI);
+    scanf("%d", &tanlov);
+
+    if (tanlov < 1 || tanlov > MAHSULOT_SONI) {
+        printf("Noto‘g‘ri tanlov! Iltimos, 1 dan %d gacha bo‘lgan raqamni kiriting.\n", MAHSULOT_SONI);
+        return;
+    }
+
+    printf("Tanlangan mahsulot: %s - %.2f so‘m\n", mahsulotlar[tanlov - 1].nom, mahsulotlar[tanlov - 1].narx);
+    printf("Qancha miqdorda olishni xohlaysiz? ");
+    scanf("%d", &miqdor);
+
+    if (miqdor < 1) {
+        printf("Noto‘g‘ri miqdor! Iltimos, 1 yoki undan katta bo‘lgan raqamni kiriting.\n");
+        return;
+    }
+
+    jamiNarx = mahsulotlar[tanlov - 1].narx * miqdor;
+    printf("Jami narx: %.2f so‘m\n", jamiNarx);
+}
+
+int main() {
+    Mahsulot mahsulotlar[MAHSULOT_SONI];
+
+    mahsulotlarniBoshlash(mahsulotlar);
+
+    mahsulotlarniKorsatish(mahsulotlar);
+
+    sotibOlish(mahsulotlar);
+
+    return 0;
+}
