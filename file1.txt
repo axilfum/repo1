@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <string.h>
+
+void reverse(char text[], char *result) {
+    int uzunlik = strlen(text);
+    for (int i = 0; i < uzunlik; i++) {
+        result[i] = text[uzunlik - 1 - i];
+    }
+    result[uzunlik] = '\0';
+}
+
+int main() {
+    char text[100];
+    char result[100];
+
+    printf("Matnni kiriting: ");
+    fgets(text, sizeof(text), stdin);
+
+    text[strcspn(text, "\n")] = '\0';
+
+    reverse(text, result);                                                                                                                                                                                                          
+    printf("Teskari matn: %s\n", result);
+
+    return 0;
+}
