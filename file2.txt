@@ -1,0 +1,11 @@
+Python — bu yuqori darajadagi, ob'ektga yo'naltirilgan dasturlash tili. Uning asosiy xususiyatlari quyidagilardir:
+
+Sodda va o'qilishi oson sintaksis: Python kodini o'qish va yozish oson, bu esa yangi dasturchilar uchun qulay.
+
+Keng qo'llanilish doirasi: Python veb-dasturlash, ma'lumotlar tahlili, sun'iy intellekt, mashinani o'rganish, avtomatlashtirish va boshqa ko'plab sohalarda qo'llaniladi.
+
+Katta kutubxonalar va modullar: Python uchun keng kutubxonalarga ega, masalan, NumPy, Pandas, Matplotlib, Django va Flask.
+
+Platformalararo: Python Windows, macOS va Linux kabi turli operatsion tizimlarda ishlaydi.
+
+Jamoa va resurslar: Pythonning katta jamoasi va ko'plab o'quv materiallari mavjud, bu dasturchilar uchun yordam beradi.
