@@ -1,0 +1,11 @@
+Windows haqida ma'lumotlar; 
+  
+1) Windows so'zi inglizcha "window" -oyna degan ma'noni anglatadi.
+2) Windows 95/98 operatsion tizimlarini o'rnatish uchun WINDOWS 95 ning minimal varianti uchun 50 Mb hajm vinchesterda bo'sh joy, 8 Mb operativ xotira.
+3) Universal grafika-WINDOWS dasturlarining qurilmalarga va dastur ta'minotiga bog'liqsizligini ta'minlaydi.
+4) Windows muhitida electron pochta va faksdan foydalanish mumkin va hokozo.
+5) Boshqa operatsion tizimlarga o'xshab Windows dasturi ham kompyuter xotirasiga kompyuter yoqilish vaqtda avtomatik ravishda yuklanadi.
+6) 30 yil avval 1985 yilning 20-noyabr kuni Microsoft korporatsiyasi Windows operatsion tizimining ilk versiyasini taqdim etadi.
+7) Microsoft korporatsiyasi 1975 yilda Bill Geyts va Pol Allen tomonidan tashkil etilgan.
+8) U mukammalashtirilgan interfeys, shuningdek dastur oynalarining yig'ilishi imkoniyati bilan ajralib  turadi.
+9) Ilk narxi 100 AQSH dollarini tashkil qilgan, 1 million nusxa sotilgan.
