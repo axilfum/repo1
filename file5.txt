@@ -1,0 +1,10 @@
+Linux haqida ma'lumotlar;
+
+1) 1991-yilda Linus Torvalds tomonidan ishlab chiqilgan. U avvalgi versiyalarida faqat terminal bilan ishlovchi dasturlar qo'llanish imkonini berdi.
+2)Linux bepul va ochiq manbai kodli, ya'ni uning asosiy kodlari har qanday odamlar tomonidan o'zgartirilishi mumkin.
+3)Linux dunyodagi eng kuchli dasturiy ta'minotlardan biri sifatida taniladi.
+4) Uning ko'p qo'llaniladigan distributivlari, masalan, Ubuntu, Debian, Fedora, Red Hat va boshqalar, xaridorlar, kasblar, veb-ijrochilar va boshqa bir qancha foydalanuvchilar tomonidan qo'llaniladi.
+5) Linux-da terminal bilan ishlovchi dasturlar yana ham ko'p qo'llanilmoqda, ammo undan tashqari, grafik foydalanuvchi interfeysi (GUI) ham mavjud.
+6)Ko'p Linux distributivlarida (masalan, Ubuntu) paket boshqaruv tizimi mavjud, bu foydalanuvchilarga o'zgartirishlar o'rnatish, ilovalarni yangilash va tizimni boshqarish imkoniyatini beradi.
+7)Linux ichki kerakli qo'llaniladigan yoki ishlab chiqarilgan tarkibni boshqarishga yoki o'zgartirishga ruhsat beradi.
+8)Linux ko'p platformalarni qo'llab-quvvatlaydi, masalan, kompyuterlar, serverlar, android mobil qurilmalari va boshqa ko'rsatki, uni bepul foydalanish imkoniyatini beradi.
